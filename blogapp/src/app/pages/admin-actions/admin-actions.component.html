@@ -1,0 +1,24 @@
+<div class="admin-actions-container">
+    <h2>Admin Actions</h2>
+  
+    <div class="action-section">
+      <h3>Delete Posts by User</h3>
+      <mat-form-field appearance="fill">
+        <mat-label>Username</mat-label>
+        <input matInput [(ngModel)]="postedBy" placeholder="Enter Username">
+      </mat-form-field>
+      <button mat-raised-button color="warn" (click)="deletePostsByPostedBy()">Delete Posts</button>
+    </div>
+  
+    <div class="action-section">
+      <h3>Delete Comments by User</h3>
+      <mat-form-field appearance="fill">
+        <mat-label>Username</mat-label>
+        <input matInput [(ngModel)]="postedBy" placeholder="Enter Username">
+      </mat-form-field>
+      <button mat-raised-button color="warn" (click)="deleteCommentsByPostedBy()">Delete Comments</button>
+    </div>
+  </div>
+  
+  
+  

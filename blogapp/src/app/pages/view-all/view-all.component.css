@@ -1,0 +1,31 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.mat-card {
+    width: 100px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Add space between cards */
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    width: 100px; /* Adjust avatar size */
+    height: 100px; /* Adjust avatar size */
+    border-radius: 50%; /* Make it circular */
+}
+
+.post-img {
+    width: 100%; /* Adjust image width */
+    height: auto;
+    object-fit: cover;
+    margin-top: 15px; /* Maintain aspect ratio */
+}
+.custom-content-box{
+    width: 400%;
+    height: 100%;
+    overflow: auto;
+}

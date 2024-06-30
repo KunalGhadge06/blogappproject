@@ -1,0 +1,55 @@
+/* admin-login.component.css */
+
+.admin-login-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  
+  height: 100vh;
+  background: #fc00ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00dbde, #e851ea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login-form {
+  width: 100%;
+  margin-bottom: 100px;
+  max-width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: 150px;
+  /* background: #090909; */
+
+  background: linear-gradient( #fc00ff,#00dbde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  box-shadow: 0 8px 25px rgba(117, 86, 86, 0.73);
+  border-radius: 8px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+
+
+}
+
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+ 
+}
+
+button {
+    padding:25px;
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+

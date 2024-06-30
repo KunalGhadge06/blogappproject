@@ -1,0 +1,22 @@
+<div class="admin-login-container">
+  <form class="login-form" (ngSubmit)="login()">
+    <h2>Admin Login</h2>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Username</mat-label>
+      <input matInput [(ngModel)]="user.userId" id="userId" name="userId" required>
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+      <mat-label>Password</mat-label>
+      <input matInput [(ngModel)]="user.password" id="password" name="password" type="password" required>
+    </mat-form-field>
+    
+    <button mat-raised-button color="primary" type="submit" [disabled]="isSubmitting">Login</button>
+    
+    <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+  </form>
+</div>
+
+  
+  
